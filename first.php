@@ -25,15 +25,15 @@ echo "<br>";
 
 $un = "nAgi";
 $pw ="reddy123";
-// if(strtoupper($yourName)=="AGI") {
-//   if($pw=="reddy13"){
-//     echo "<h1>you can enter</h1>";
-//   }else{
-//     echo "<h1>you cant enter</h1>";
-//   }
-// }else{
-//   echo '<h1>wrong un</h1>';
-// } 
+if(strtoupper($yourName)=="AGI") {
+  if($pw=="reddy13"){
+    echo "<h1>you can enter</h1>";
+  }else{
+    echo "<h1>you cant enter</h1>";
+  }
+}else{
+  echo '<h1>wrong un</h1>';
+} 
 if($un=="nAgi"&&$pw=="reddy123"){
   echo "you can enter";
 }else{
