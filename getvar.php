@@ -11,7 +11,7 @@ if(isset( $_GET['day'])&&isset( $_GET['month'])&&isset( $_GET['year']))
 
 ?>
 
-<form action="visitor.php" method="GET">
+<form action="getvar.php" method="GET">
  <input type="text" name="day"> <br>
  <input type="text" name="month"> <br>
  <input type="text" name="year"> <br>
