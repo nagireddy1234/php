@@ -1,6 +1,7 @@
  <?php 
 
- divide(add(10,20), add(1,2));
+ $final = divide(add(100,200), add(1,2));
+ echo "final result is: $final";
 
 function add($num1, $num2){
   $add = $num1+$num2;
